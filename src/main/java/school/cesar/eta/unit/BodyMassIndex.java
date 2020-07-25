@@ -6,7 +6,7 @@ public class BodyMassIndex {
 
         if (bmi < 16) {
             return "Severely Underweight";
-        } else if (bmi < 18.5) {
+        } else if (bmi < 25) {
             return "Underweight";
         } else if (bmi < 25) {
             return "Normal";
